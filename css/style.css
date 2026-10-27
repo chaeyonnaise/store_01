@@ -266,3 +266,20 @@ nav a:hover {
 }
 
 /* 공통 footer 영역 디자인 */
+footer {
+    text-align: center;
+    background-color: #123f67;
+    color: white;
+    padding: 25px 15px;
+    font-size: 13px;
+    margin-top: 25px;
+}
+
+footer small {
+    color: #c8d9e7;
+}
+
+footer p {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
