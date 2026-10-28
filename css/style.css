@@ -428,8 +428,42 @@ footer p {
 .prev-next b {
     color: #075b9b;
 }
+/*글쓰기 폼 디자인*/
+.form-content {
+    max-width: 850px;
+}
+.form-content label {
+    display: block;
+    font-weight: bold;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+.form-content textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #cbdbe7;
+    border-radius: 5px;
+    font-family: inherit;
+    font-size: 16px;
+    resize: vertical; /* 사용자가 세로 방향으로만 입력창 확장 */
+}
+.form-content input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #cbdbe7;
+    border-radius: 5px;
+    font-family: inherit;
+    font-size: 16px;
+}
 
 
+
+.form-buttons{
+    display: flex;
+    justify-content: flex-end;
+    gap: 8px;
+    margin-top: 20px;
+}
 
 /* 모바일 화면에서 보기 좋게 배치(700미만 화면) */
 @media (max-width: 700px) {
