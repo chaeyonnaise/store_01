@@ -384,6 +384,51 @@ footer p {
     color: white;
 }
 
+/* 글 상세내용 보기 디자인 */
+.article-content h2 {
+    border-bottom: 1px solid #dce7ef;
+    padding-bottom: 15px;
+}
+
+.article-info {
+    display: flex;
+    gap: 20px;
+    font-size: 13px;
+    color: #718493;
+    padding: 12px 0;
+    border-bottom: 1px solid #dce7ef;
+}
+
+.article-body {
+    padding: 25px 5px;
+    min-height: 250px; /* 늘어날 가능성이 있음 */
+}
+
+.article-body h3 {
+    color: #075b9b;
+}
+
+.article-buttons {
+    display: flex;
+    justify-content: flex-end; /* 가로 오른쪽 정렬 */
+    gap: 8px;
+}
+
+.prev-next {
+    padding-top: 0; 
+}
+
+.prev-next p {
+    display: flex;
+    gap: 20px;
+    border: 1px solid #dce7ef;
+    padding: 10px;
+}
+
+.prev-next b {
+    color: #075b9b;
+}
+
 
 
 /* 모바일 화면에서 보기 좋게 배치(700미만 화면) */
